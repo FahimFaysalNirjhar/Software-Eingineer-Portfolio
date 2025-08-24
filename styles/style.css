@@ -121,6 +121,7 @@ nav a {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   opacity: 0.7;
+  margin-top: 24px;
 }
 .banner-btn {
   display: flex;
@@ -188,7 +189,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 48px;
 }
 .inspiration-description {
   display: flex;
