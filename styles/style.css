@@ -6,7 +6,6 @@
   color: rgba(13, 19, 33, 0.7);
   font-family: "Azeret Mono";
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px; /* 150% */
 }
@@ -14,7 +13,6 @@
   color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   opacity: 0.7;
@@ -31,9 +29,7 @@
   text-align: center;
   font-family: "Azeret Mono";
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .ancor {
   text-decoration: none;
@@ -165,7 +161,6 @@ main {
   text-align: center;
   font-family: "Azeret Mono";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   opacity: 0.7;
@@ -196,8 +191,89 @@ main {
   text-align: center;
   font-family: "Azeret Mono";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   opacity: 0.7;
+}
+/* target related styles */
+.target {
+  margin: 100px 0;
+}
+.target-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.target-title {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-weight: 800;
+  height: 37px;
+  margin: 0;
+}
+.target-para {
+  width: 852px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+  margin: 0;
+}
+.target-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.target-card {
+  display: flex;
+  width: 364px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: start;
+}
+.html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.target-card-title {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px; /* 150% */
+}
+.target-card-para {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 26px; /* 162.5% */
+}
+.target-card a {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
 }
