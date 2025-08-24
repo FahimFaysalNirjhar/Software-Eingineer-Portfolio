@@ -277,3 +277,138 @@ main {
   text-decoration-thickness: auto;
   text-underline-offset: auto;
 }
+/* next related styles */
+.next-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.next-title {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+.next-para {
+  width: 852px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+  margin: 0;
+}
+.react-js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  padding: 40px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+.react-js img {
+  object-fit: contain;
+}
+.react-title {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px; /* 150% */
+}
+.react-para {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+}
+.react-ancor {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+}
+.node-js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+.node-js img {
+  object-fit: contain;
+}
+.nodejs-title {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px; /* 150% */
+}
+.nodejs-para {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+}
+.nodejs-ancor {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+}
+.mongodb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  margin-top: 24px;
+  margin-bottom: 49px;
+}
+.mongodb img {
+  object-fit: contain;
+}
+.mongodb-title {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px; /* 150% */
+}
+.mongodb-para {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.7;
+}
