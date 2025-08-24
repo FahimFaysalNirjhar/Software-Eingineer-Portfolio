@@ -146,7 +146,11 @@ main {
   padding: 80px 90px;
 }
 .web-dev-description {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 .web-dev-title {
   color: #0d1321;
@@ -154,6 +158,7 @@ main {
   font-family: "Azeret Mono";
   font-size: 32px;
   font-weight: 800;
+  margin: 0;
 }
 .web-dev-para {
   width: 852px;
@@ -164,6 +169,7 @@ main {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   opacity: 0.7;
+  margin: 0;
 }
 /* inspiration related styles */
 .inspiration-container {
@@ -422,4 +428,64 @@ main {
   text-decoration-skip-ink: none;
   text-decoration-thickness: auto;
   text-underline-offset: auto;
+}
+/* support related styles */
+.support {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url(../assets/handshake.jpg) lightgray 50% / cover no-repeat;
+  padding: 64px 48px;
+  border-radius: 16px;
+}
+.support-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.support-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+}
+.support-para {
+  width: 606px;
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.support-container form input[type="search"] {
+  width: 548px;
+  padding: 19px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 16px;
+}
+.support-container form input[type="submit"] {
+  width: 120px;
+  padding: 17px 20px;
+  border-radius: 8px;
+  background: #fff;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
 }
