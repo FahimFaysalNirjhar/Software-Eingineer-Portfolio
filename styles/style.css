@@ -39,6 +39,7 @@
   font-family: "Azeret Mono";
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 .ancor {
   text-decoration: none;
@@ -86,6 +87,7 @@ nav a {
   font-family: "Azeret Mono";
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 /* banner related styles */
 .banner {
@@ -137,6 +139,7 @@ nav a {
   border-radius: 8px;
   background: #0d1321;
   border: none;
+  cursor: pointer;
 }
 .banner-description a {
   text-decoration: none;
@@ -304,6 +307,7 @@ main {
   text-decoration-style: solid;
   text-decoration-thickness: auto;
   text-underline-offset: auto;
+  cursor: pointer;
 }
 /* next related styles */
 .next-container {
@@ -372,6 +376,7 @@ main {
   text-decoration-style: solid;
   text-decoration-thickness: auto;
   text-underline-offset: auto;
+  cursor: pointer;
 }
 .node-js {
   display: flex;
@@ -413,6 +418,7 @@ main {
   text-decoration-skip-ink: none;
   text-decoration-thickness: auto;
   text-underline-offset: auto;
+  cursor: pointer;
 }
 .mongodb {
   display: flex;
@@ -456,6 +462,7 @@ main {
   text-decoration-skip-ink: none;
   text-decoration-thickness: auto;
   text-underline-offset: auto;
+  cursor: pointer;
 }
 /* support related styles */
 .support {
@@ -518,6 +525,7 @@ main {
   font-family: "Azeret Mono";
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 /* footer related styles */
 footer {
@@ -546,4 +554,5 @@ footer {
   display: flex;
   align-items: center;
   gap: 24px;
+  cursor: pointer;
 }
